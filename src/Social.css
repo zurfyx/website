@@ -1,0 +1,12 @@
+.social {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    animation: fadeIn 1s;
+}
+
+.social ul {
+    padding: 0;
+    list-style: none;
+}

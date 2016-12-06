@@ -1,0 +1,14 @@
+.message {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translate(0%, -50%) rotate(-270deg);
+    transform-origin: 100% 0;
+    font-size: 1.1em;
+    animation: fadeIn 1s;
+}
+
+.message:hover {
+    color: #fff;
+    text-decoration: underline;
+}
