@@ -31,7 +31,7 @@ class App extends Component {
       .then(() => this.sayWeak('This site is'))
       .then(() => this.timeout(200))
       .then(() => this.say('Coming soon', 140))
-      .then(() => this.timeout(1500))
+      .then(() => this.timeout(1200))
       .then(() => {
         this.toggleSocial();
         this.toggleMessage();
